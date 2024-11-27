@@ -1,0 +1,97 @@
+/* Footer Area */
+.footerArea {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+  padding: 40px 60px;
+}
+
+.footerRow {
+  margin: 0 -25px;
+}
+
+.footerCol {
+  padding: 0 25px;
+}
+
+/* Single Footer Widget */
+.singleFooterWidget {
+  position: relative;
+  z-index: 1;
+}
+
+.copywriteText a {
+  color: #747794;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.copywriteText a:hover,
+.copywriteText a:focus,
+.footerMenuLink:hover,
+.footerMenuLink:focus {
+  color: #3f43fd;
+}
+
+.widgetTitle {
+  margin-bottom: 1.5rem;
+}
+
+.footerMenuLink {
+  color: #747794;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.footerMenuLink:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer Social Area */
+.footerSocialArea {
+  position: relative;
+  z-index: 1;
+}
+
+.footerSocialLink {
+  background-color: #f5f5ff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  box-shadow: none;
+  transition: color 0.3s ease;
+}
+
+.footerSocialIcon {
+  line-height: 36px;
+}
+
+.footerSocialLink:hover,
+.footerSocialLink:focus {
+  color: #ffffff;
+}
+
+/* Keyframes for Animation */
+@keyframes biCycle {
+  0% {
+      left: 0;
+  }
+  100% {
+      left: 100%;
+  }
+}
+
+/* Reset List Styles */
+.listReset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
