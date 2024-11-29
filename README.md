@@ -1,7 +1,7 @@
 # Vacancy Management Application
 
 Vacancy Management System
-This project implements a comprehensive Vacancy Management System designed to streamline and automate the recruitment process. The system is built using ASP.NET Core for the backend, Entity Framework Core for database management and  Angular for the frontend.
+This project implements a comprehensive Vacancy Management System designed to streamline and automate the recruitment process. The system is built using ASP.NET Core for the backend, Entity Framework Core for database management and  React for the frontend.
 
 # **Project Overview**
 The Vacancy Management System is a platform designed to facilitate the hiring process by enabling automated workflows for managing job vacancies, candidate applications, and assessments.
@@ -33,7 +33,7 @@ The Vacancy Management System is a platform designed to facilitate the hiring pr
 - Database ORM: Entity Framework Core
   
 **Frontend**
- - Angular
+ - React
    
 **Database**
 - MS SQL Server
